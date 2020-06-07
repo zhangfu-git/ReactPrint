@@ -1,0 +1,47 @@
+.printContent {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+}
+.nickname {
+  font-weight: 700;
+  color: #333;
+  font-size: 21px;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.infoModule {
+  margin-left: 20px;
+}
+.countContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+.countUnit {
+  margin-right: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border-right: 1px solid #f0f0f0;
+}
+.countUnit:last-child {
+  border: 0 none;
+}
+.title {
+  font-size: 12px;
+  color: #333;
+}
+.number {
+  font-size: 12px;
+  color: #969696;
+}
+
+.link {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
